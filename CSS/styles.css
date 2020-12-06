@@ -1,0 +1,363 @@
+body {
+  font-family: "Merriweather", sans-serif;
+  text-align: center;
+  background-color: #dbf0f3;
+  color: #023a3a;
+  margin: 0px;
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+.titel-container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.titel-startseite {
+  color: #023a3a;
+  align-self: flex-end;
+  font-weight: bold;
+  font-family: "Sacramento", cursive;
+  font-size: 3.75rem;
+  margin-right: 15%;
+  margin-top: 8%;
+}
+
+.Camperillu {
+  width: 100%;
+}
+
+.Navi-start {
+  height: 40px;
+  width: 100%;
+  margin: 0px;
+  text-align: right;
+  color: #f2d974;
+  padding-top: 20px;
+  list-style-type: none;
+  background-color: white;
+}
+
+/*Kontaktformular*/
+
+.div-header {
+  color: #023a3a;
+  padding-left: 20px;
+}
+
+/*Formular*/
+.Kontaktformular {
+  background-color: #ffffff;
+  height: auto;
+}
+.text-kontakt {
+  margin: 0 15% 0 15%;
+  text-align: center;
+}
+
+.input {
+  font-style: italic;
+  font-size: 12px;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid #023a3a;
+  padding: 13px;
+  line-height: 20px;
+  margin-bottom: 15px;
+  width: 50%;
+}
+
+textarea {
+  height: 150px;
+  line-height: 100px;
+}
+
+.tabelle {
+  color: #023a3a;
+  width: 50%;
+  margin: auto;
+}
+
+.submit {
+  background-color: #023a3a;
+  width: 170px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: outset;
+  border-color: #dbf0f3;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.text {
+  display: inline-block;
+  text-align: center;
+  width: 80%;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-bottom: 20px;
+  line-height: 2rem;
+}
+
+.vorstellung {
+  height: auto;
+  padding: 20px;
+  background-color: white;
+}
+
+.Lisa {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 20px;
+}
+
+.Ich {
+  font-family: "Sacramento", cursive;
+  font-size: 3rem;
+  color: #023a3a;
+  margin: none;
+  padding-top: 30px;
+}
+
+.Ich3 {
+  font-family: "Sacramento", cursive;
+  font-size: 3rem;
+  color: #023a3a;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.Ich4 {
+  font-family: "Sacramento", cursive;
+  font-size: 3rem;
+  color: #023a3a;
+  margin-top: 0;
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+
+.Ich2 {
+  font-family: "Sacramento", cursive;
+  font-size: 3rem;
+  color: #023a3a;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+/*Hauptcontainer Mittelteil*/
+
+.hobbie-flexbox {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Hobbiecontainer {
+  width: 200px;
+  height: auto;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+}
+
+/*Lebenslauf*/
+
+p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+table {
+  vertical-align: center;
+}
+
+tr,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+.zeile3 {
+  vertical-align: top;
+  font-size: 1rem;
+}
+
+.border {
+  border-left: 2px solid #f2d974;
+}
+
+.oben {
+  background-color: #ffffff;
+  margin-bottom: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+.Lebenslauf {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Lebenslauf-Titel {
+  float: left;
+  padding-right: 50px;
+  font-family: "Sacramento", cursive;
+  font-size: 3rem;
+  color: #023a3a;
+}
+
+.Jahr {
+  color: #f2d974;
+  float: left;
+}
+
+.Tabellentitel {
+  background-color: #dbf0f3;
+  margin-top: 0.5rem;
+  font-family: "Merriweather", sans-serif;
+}
+
+/*Skills*/
+
+.skills-flexbox {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  margin: 5% 5% 5%;
+
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skills-container {
+  width: 350px;
+  height: auto;
+}
+
+.skill-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/*Navigaton Seite: Über mich*/
+
+.Navi-oben {
+  height: 40px;
+  width: 100%;
+  margin: 0px;
+  text-align: right;
+  color: #f2d974;
+  padding-top: 20px;
+  list-style-type: none;
+}
+
+.Navigation-About {
+  display: inline;
+  padding: 20px;
+}
+
+.Navigation-Kontakt {
+  display: inline;
+  padding: 20px;
+}
+
+.Link {
+  text-decoration: none;
+}
+
+/*Wrapper*/
+
+.Galerie {
+  background-color: white;
+  padding: 40px;
+}
+
+.wrapper {
+  background-color: #023a3a;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  height: 300px;
+  max-width: 80%;
+  margin: auto;
+  overflow: scroll;
+}
+
+.box {
+  flex: 0 0 auto;
+  width: 500px;
+  height: 300px;
+  background-color: white;
+}
+
+.Bilder {
+  height: 300px;
+  width: 500px;
+}
+
+/*Fußzeile*/
+
+.fusszeile {
+  background-color: #023a3a;
+  margin: 0px;
+}
+
+ul {
+  margin: 0;
+  padding: 10px;
+}
+
+.footerelemente {
+  display: inline;
+  color: #ffffff;
+  width: 350px;
+  font-size: 0.625rem;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #f2d974;
+}
+
+/*Zitat*/
+.Zitat {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+blockquote {
+  font-size: 1rem;
+  vertical-align: center;
+  border-top: 0.5px dotted #023a3a;
+  border-bottom: 0.5px dotted #023a3a;
+}

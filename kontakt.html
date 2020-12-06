@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Kontaktformular</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="Navi-oben">
+      <div class="Navigation-About">
+        <a href="index.html" class="Link" target="_blank">Home</a>
+      </div>
+      <div class="Navigation-About">
+        <a href="vorstellung.html" class="Link" target="_blank">Über mich</a>
+      </div>
+      <div class="Navigation-Kontakt">
+        <a href="lebenslauf.html" class="Link" target="_blank">Lebenslauf</a>
+      </div>
+    </div>
+
+    <div class="Kontaktformular">
+      <div>
+        <h2 class="Ich4">So erreichst Du mich!</h2>
+      </div>
+      <div class="text-kontakt">
+        <p>
+          Du brauchst dringend ein neues Logo, dein Flyer müsste dringend einmal
+          überarbeitet werden oder hättest Du gerne einen Imagefilm? Dann bist
+          du hier genau richtig! Schick mir einfach deine Anfrage und Ich melde
+          mich so schnell wie möglich bei Dir zurück!
+        </p>
+      </div>
+
+      <div class="tabelle">
+        <table>
+          <tr>
+            <td>
+              <img src="Images/knowledge.png" alt="Icon" class="icon" />
+            </td>
+            <td>
+              <input type="radio" name="logo" value="logo" checked />
+              <label for="Logo">Logo</label>
+
+              <input type="radio" name="flyer" value="flyer" />
+              <label for="Flyer">Printmedien</label>
+
+              <input type="radio" name="newsletter" value="newsletter" />
+              <label for="Newsletter">Webseite</label>
+
+              <input type="radio" name="newsletter" value="newsletter" />
+              <label for="Newsletter">Newsletter</label>
+
+              <input type="radio" name="sonstiges" value="sonstiges" />
+              <label for="Sonstiges">Sonstiges</label>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="div-header">
+        <form
+          action="mailto:lisa.dannegger@hotmail.de"
+          method="post"
+          enctype="text/plain"
+        >
+          <input
+            name="vorname"
+            type="text"
+            class="input"
+            placeholder="Vorname"
+          />
+          <input
+            name="nachname"
+            type="text"
+            class="input"
+            placeholder="Nachname"
+          />
+          <input name="email" type="email" class="input" placeholder="Email" />
+          <textarea
+            name="text"
+            class="input"
+            placeholder="Nachricht"
+            rows="10"
+            cols="70"
+          ></textarea>
+
+          <div>
+            <input type="submit" value="Kontakt aufnehmen" class="submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="fusszeile">
+      <ul>
+        <li class="footerelemente"><a href="#">Impressum</a></li>
+        <li class="footerelemente">&copy; Lisa Dannegger 2020</li>
+        <li class="footerelemente"><a href="#">Datenschutz</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
